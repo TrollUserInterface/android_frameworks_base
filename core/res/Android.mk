@@ -42,8 +42,8 @@ framework_RenderScript_STAMP_FILE := $(framework_GENERATED_SOURCE_DIR)/RenderScr
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
 # Viper Color Engine
-$(warning *** Including Viper Color Engine ***)
-LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+$(warning *** Including EcemUI Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/ecem/colorengine/$(LOCAL_PATH)/res
 
 include $(BUILD_PACKAGE)
 
